@@ -1,0 +1,60 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .form {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .form {display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  }
+}
+
+.body {
+  margin: auto;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  padding-left: 10px;
+}
+
+.App_title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.list {
+  text-align: center;
+  margin-left: 33.3%;
+  margin-right: 33.3%;
+  width: 33.3%;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+  padding-left: 10px;
+}
